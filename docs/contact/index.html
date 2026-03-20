@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>contact - lake words</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav">menu</button>
+  <h1 class="site-title"><a href="../">lake words</a></h1>
+  <div></div>
+  <nav id="site-nav" class="site-nav" data-site-nav aria-label="Main Menu">
+    <ul>
+      <li><a href="../read-lake-words/">read</a></li>
+      <li><a href="../find-lake-words/">find</a></li>
+      <li><a href="../download/">download</a></li>
+      <li><a href="../connect/">connect</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+<section class="container page-hero"><h1>contact</h1></section>
+<section class="container" style="padding-bottom:3rem;">
+  <p>we'd love to hear from you, and connect with others doing work around the lake.</p>
+  <form data-endpoint="https://httpbin.org/post">
+    <div class="columns" style="grid-template-columns:1fr 1fr;gap:.8rem;">
+      <div><label for="name" class="small">Name (required)</label><input id="name" name="name" required /></div>
+      <div><label for="email" class="small">Email</label><input id="email" name="email" type="email" /></div>
+    </div>
+    <p><label for="message" class="small">Message (required)</label><textarea id="message" name="message" required></textarea></p>
+    <button class="button inverse" type="submit">Submit</button>
+    <p class="small" data-form-status></p>
+  </form>
+</section>
+</main>
+<footer class="site-footer">
+  <p>anti-copyright, reproduce freely</p>
+  <p>Recreated for archival access on GitHub Pages</p>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>
